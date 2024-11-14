@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import TodoList from './components/todoList'
 
 
-function App() {
+function Layout() {
   const [count, setCount] = useState(0)
 
   return (
@@ -15,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default Layout
